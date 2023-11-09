@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <link rel="stylesheet" href="./css file/footwear.css">
+   <script src="./javascript/footwear.js" defer></script>
+</head>
+<body id="colorForShipping">
+    <div id="BrandContainer">
+          <img src="../../web technology project/photos/pngwing.com (4).png" id="homeImg" onclick="homePage()">
+        <img src="../../web technology project/photos/nike.png.png" alt="" id="nikeImg" onclick="image1()">
+        <input type="button" class="inputButton" value="Nike" onclick="image1()">
+        <img src="../../web technology project/photos/adidas.png.png" alt=""  id="adidasImg" onclick="image2()">
+        <input type="button" class="inputButton" value="Adidas" onclick="image2()">
+        <img src="../../web technology project/photos/reedook.png.png" alt="" id="reebookImg" onclick="image3()">
+        <input type="button" class="inputButton" value="Reebok" onclick="image3()">
+        <img src="../../web technology project/photos/puma.png.png" alt="" id="pumaImg" onclick="image6()" >
+        <input type="button" class="inputButton" value="Puma" onclick="image6()">
+        <input type="search" placeholder="search" class="inputButton" id="search" oninput="">
+        <img src="../../web technology project/photos/search png.png" alt="" id="searchImg">
+        <input type="button" value="Login" class="inputButton" id="signInBut" onclick="loginPage1()">
+    </div>
+    <div id="vedioContainer">
+        <video src="../../web technology project/photos/167889 (540p).mp4" autoplay muted loop id="vedio"></video>
+        
+    </div>
+     <div id="shoeContainer">
+        <div class="shoePng"><h3 class="textContent">price:499/-</h3><img src="../../web technology project/photos/nikeshoe1.png.png" alt="" class="shoeImg" onclick="image1()"></div>
+        <div class="shoePng"><h3>price:999/-</h3><img src="../../web technology project/photos/adidasshoe.png" alt="" class="shoeImg" onclick="image2()"></div>
+        <div class="shoePng"><h3>price:799/-</h3><img src="../../web technology project/photos/reebookshoe.png.png" alt="" class="shoeImg" onclick="image3()"></div>
+    </div>
+        <div id="shoeContainer1">
+          <div class="shoePng"><h3>price:699/-</h3><img src="../../web technology project/photos/nikeshoe2.png.png" alt="" class="shoeImg" onclick="image4()"></div>
+          <div class="shoePng"><h3>price:899/-</h3><img src="../../web technology project/photos/adidasshoe2.png.png" alt="" class="shoeImg" onclick="image5()"></div>
+          <div class="shoePng"><h3>price:399/-</h3><img src="../../web technology project/photos/pumesheo.png.png" alt="" class="shoeImg" onclick="image6()"></div>
+        </div>
+        <h1 id="text">SELECT YOUR ITEM....</h1>
+        <h1 id="textOnVed">ONLINE SHOPPING FOR FOOTWEAR...</h1>
+        <div id="photos">
+            <img src="../../web technology project/photos/nikeshoe1.png.png" class="shoePhoto">
+            <div id="childDiv"><h1 class="textclassdiv">sponsored</h1>
+                <h1 class="textclassdiv">Mens FootWear</h1>
+                <h1 class="textclassdiv">Brand: Nike</h1>
+                <h1 class="textclassdiv">Price:499/-</h1></div>
+          </div>
+          <div id="photos1">
+            <img src="../../web technology project/photos/adidasshoe.png" class="shoePhoto">
+            <div id="childDiv"><h1 class="textclassdiv">sponsored</h1>
+                <h1 class="textclassdiv">Mens FootWear</h1>
+                <h1 class="textclassdiv">Brand: Adidas</h1>
+                <h1 class="textclassdiv">Price:999/-</h1></div>
+          </div>
+          <div id="photos2">
+            <img src="../../web technology project/photos/reebookshoe.png.png" class="shoePhoto">
+            <div id="childDiv"><h1 class="textclassdiv">sponsored</h1>
+                <h1 class="textclassdiv">Mens FootWear</h1>
+                <h1 class="textclassdiv">Brand: Reebok</h1>
+                <h1 class="textclassdiv">Price:799/-</h1></div>
+          </div>
+          <div id="photos3">
+            <img src="../../web technology project/photos/nikeshoe2.png.png" class="shoePhoto">
+            <div id="childDiv"><h1 class="textclassdiv">sponsored</h1>
+                <h1 class="textclassdiv">Snickers For Mens</h1>
+                <h1 class="textclassdiv">Brand: Adidas</h1>
+                <h1 class="textclassdiv">Price:699/-</h1></div>
+          </div>
+          <div id="photos4">
+            <img src="../../web technology project/photos/adidasshoe2.png.png" class="shoePhoto">
+            <div id="childDiv"><h1 class="textclassdiv">sponsored</h1>
+                <h1 class="textclassdiv">Snickers For Mens</h1>
+                <h1 class="textclassdiv">Brand: Nike</h1>
+                <h1 class="textclassdiv">Price:899/-</h1></div>
+          </div>
+          <div id="photos5">
+            <img src="../../web technology project/photos/pumesheo.png.png" class="shoePhoto">
+            <div id="childDiv"><h1 class="textclassdiv">sponsored</h1>
+                <h1 class="textclassdiv">Snickers For Mens</h1>
+                <h1 class="textclassdiv">Brand: Puma</h1>
+                <h1 class="textclassdiv">Price:399/-</h1></div>
+          </div>
+          <div id="orderBut">
+            <input type="button" class="saveOrderBut" value="Add To Card" id="addToCard" onclick=addToCard()>
+            <input type="button" class="saveOrderBut" value="Buy Now" id="buyBut" onclick="buyOrder()">
+         </div>
+         <div id="homeContainer">
+          <form>
+          <a href="file:///D:/web%20technology%20project/index.html"><input type="button" class="homeButton" value="Home"></a>
+          <input type="button" class="homeButton" value="My Orders">
+          <input type="button" class="homeButton" value="Added To Card">
+        </form>
+         </div>
+         <div id="messageContainer">
+          <h1 id="messageText">Item Should Be Added To Your Card....</h1>
+          <h1 id="cursor" onclick="X()">X</h1>
+        </div>
+        <div id="signUpPage">
+          <div id="classSignUpPage">
+            <form action="">
+              <h1 id="signUp">SignUp</h1>
+            <input type="text" placeholder="Enter Your Name" class="mailBut"><br>
+            <input type="email" placeholder="Enter Your Mail" class="mailBut"><br>
+            <input type="password" placeholder="New Password" class="mailBut"><br>
+            <input type="password" placeholder="Confirm Password" class="mailBut"><br>
+            <h1 id="errorText">Your password don't matches...</h1>
+            <input type="radio" name="a" class="radioBut" value="male">Male
+            <input type="radio" name="a" class="radioBut" value="female">Female
+            <input type="radio" name="a" class="radioBut" value="others">Others<br>
+            <input type="text" placeholder="Enter password" class="otpBut" id="inputOtp">
+            <input type="button" value="OTP" class="otpBut" id="otpGenBut"><br>
+            
+          </form>
+          <button id="submit" onclick="backToLoginPage()">SignUp</button>
+          </div>
+        </div> 
+        <div id="loginPage">
+          <div id="loginPageContainer">
+            <form action=""><h1 id="loginTitle">Login</h1>
+            <input type="text" placeholder="Enter your email" class="loginInputBut"><br>
+            <input type="password" placeholder="Enter your password" class="loginInputBut">
+            <h4 id="signinText" onclick="signUpPage()">SignUp?</h4>
+            <h4 id="forgotPass" onclick="changePassPage()">Forgot_password?</h4>
+            <h4 id="loginMessage">InValid Data...</h4>
+        </form>
+        <button id="loginBut" onclick="BackToHomePage()">Login</button>
+      </div>
+        </div>
+        <div id="changePassContainer">
+        <div id="changePage">
+          <form action="">
+          <h1 id="changeText">Change Password..</h1>
+          <input type="password" placeholder="New password" class="changePassword"><br>
+          <input type="password" placeholder="confirm password" class="changePassword">
+          <h4 id="changePassText">password don't matched...</h4>
+        </form>
+          <button id="submitBut" onclick="changeForgotPass()">submit</button>
+        </div>
+      </div>
+      <div id="loadMessage">
+        <h1 id="pageText">This page says...</h1>
+        <h4 id="pageMessage">please signUp the page..</h4>
+        <input type="button" value="ok"  id="okBut" onclick="okBut()">
+        <input type="button" value="cancel" id="cancelBut" onclick="cancelBut()">
+      </div>
+      <div id="shippingContainer">
+        <h1 id="shippingText">Enter your shipping address..</h1>
+        <input type="text" class="shippingInput" placeholder="Enter your name"><br>
+        <input type="text" class="shippingInput" placeholder="Mobile number"><br>
+        <input type="text" class="shippingInput" placeholder="Mandal/Street/Colony/H.no"><br>
+        <input type="text" class="shippingInput" placeholder="District/state">
+      </div>
+      <div id="continueBut">
+        <input type="button" value="Continue" class="priceBut" id="continue" onclick="paymentDetails()">
+      </div>
+      <div id="paymentContainer">
+        <form><h1 id="paymentText">Select your payment mode..</h1>
+        <input type="radio" class="paymentInput" name="a">NetBanking <br>
+        <input type="radio" class="paymentInput" name="a">UPI ID <br>
+        <input type="radio" class="paymentInput" name="a">payTM <br>
+        <input type="radio" class="paymentInput" name="a">PhonePay <br>
+        <input type="radio" class="paymentInput" name="a">Cash On Delivery <br>
+        <input type="button" value="confirm" id="paymentConfirm" onclick="paymentSuccess()">
+      </form>
+      </div>
+</body>
+</html>
